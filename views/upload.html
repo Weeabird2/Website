@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <title>Katalog </title>
+    <script src="js.js" ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width" />
+  </head>
+  <body>
+  <div class="formular">
+    <form ref='uploadForm' 
+      id='uploadForm' 
+      action='http://localhost:3000/upload' 
+      method='post' 
+      encType="multipart/form-data">
+        <div class="titelvomlied"><input type="text" id="titelVomLied" name="titel"  /></div>
+        <div class="coverart"><label for ="coverArt">Cover Art:</label>
+        <input type="file" id="coverArt" name="coverArt" /></div>
+       <div class="song"> <label for ="sonG">Lied:</label>
+        <input type="file" id="sonG" name="sonG" /> </div>
+       <div> <input type='submit'  value='Upload!' /></div>
+    </form>     
+  </div>
+  </body>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+
+.überschrift {
+  color: peachpuff;
+  text-shadow: black;
+  text-align: center; 
+  font-size: 20px;
+  margin: 0;
+}
+h1.überschrift {
+margin: 70px 0px 10px;
+border-bottom-style: solid;
+border-color: black;
+font-size: 60px;
+}
+.nureinknopf{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  max-width:fit-content;
+  margin:auto;
+}
+
+.inhalt {
+  display:flex;
+  min-width: 1200px;
+  height: 200px;
+  border-style: solid;
+  text-align: center;
+  margin: 20px 300px;
+}
+.cover{
+  min-width: 200px;
+  min-height: 100%;
+  box-sizing: border-box;
+  background-image: url("wtf2.PNG");
+  background-size: cover;
+  }
+.wrapper{
+flex-grow: 1;
+display: flex;
+flex-direction: column;
+}
+h2.überschrift {
+  min-height: 20px;
+  text-align: right;
+  font-size: 30px;
+  margin-right: 10px;
+}
+.spektroscheiß{
+  flex-grow: 1;
+}
+.comment {
+border-style: solid;
+margin: 0px 10px 10px 80px;
+}
+
+.formular {
+  flex-grow:1;
+  display: flex;
+  min-width: 300px;
+  flex-direction: column;
+  border: solid;
+ 
+}
+
+.titelvomlied {
+  padding: 10px 50px 10px 0px;
+  border-bottom:solid;
+  box-sizing:border-box;
+
+}
+.coverart{
+  padding: 10px 50px 10px 0px;
+  border-bottom:solid;
+  box-sizing:border-box;
+}
+.song{
+  padding: 10px 50px 10px 0px;
+  border-bottom:solid;
+  box-sizing:border-box;
+
+}
